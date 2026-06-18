@@ -60,7 +60,7 @@ This page will display:
 """, unsafe_allow_html=True)
 
 else:
-    class_names = metrics.get("class_names", get_class_names())
+    class_names = metrics["class_names"] if "class_names" in metrics else get_class_names()
     precision = metrics.get("precision", [])
     recall = metrics.get("recall", [])
     ap50 = metrics.get("ap50", [])
