@@ -2,6 +2,8 @@
 
 A full end-to-end object detection project trained on 4,969 real dashcam images across 15 traffic sign classes, achieving **93.2% mAP@50** on a held-out test set. Built with YOLOv8, Streamlit, and Python.
 
+**Live demo:** [traffic-sign-detection-yolov8.streamlit.app](https://traffic-sign-detection-yolov8-sapjre6eunhvzgdt7dxcyb.streamlit.app/)
+
 ---
 
 ## What this project does
